@@ -1,0 +1,192 @@
+/* [ -- Master Stylesheet -- ] */
+/* ##################################################
+
+
+
+################################################## */
+/* ##### Index of Stylesheet #####
+
+:: 1.0 Import Fonts 
+:: 2.0 Import All CSS
+:: 3.0 Base CSS
+:: 4.0 Preloader Area CSS
+:: 5.0 Scroll Up Area CSS
+:: 6.0 Section Heading Area CSS
+:: 7.0 South Button CSS
+:: 8.0 Header Area CSS
+:: 9.0 Welcome Area CSS
+:: 10.0 Advanced Search Area
+:: 11.0 Single Property Area CSS
+:: 12.0 Testimonials Area CSS
+:: 13.0 Editor Area CSS
+:: 14.0 Call to Action CSS
+:: 15.0 Footer Area CSS
+:: 16.0 Breadcumb Area CSS
+:: 17.0 About Us Area CSS
+:: 18.0 Team Member Area CSS
+:: 19.0 Listings Area CSS
+:: 20.0 Blog Area CSS 
+:: 21.0 Contact Area CSS
+:: 22.0 Shortcode Area CSS
+
+##### Index of Stylesheet ##### /*
+
+/* :: 1.0 Import Fonts */
+/*@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700");*/
+/* :: 2.0 Import All CSS */
+/*@import url(css/bootstrap.min.css);
+@import url(css/animate.css);
+@import url(css/owl.carousel.css);
+@import url(css/classy-nav.min.css);
+@import url(css/magnific-popup.css);
+@import url(css/font-awesome.min.css);
+@import url(css/themify-icons.css);
+@import url(css/nice-select.css);
+@import url(css/jquery-ui.min.css);*/
+/* :: 3.0 Base CSS */
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: "Open Sans", sans-serif; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #051642;
+  font-weight: 600; }
+
+p {
+  color: #545e77;
+  font-size: 14px;
+  line-height: 2;
+  font-weight: 600; }
+
+a {
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms;
+  text-decoration: none;
+  outline: none;
+  font-size: 14px;
+  font-weight: 600; }
+  a:hover, a:focus {
+    -webkit-transition-duration: 500ms;
+    transition-duration: 500ms;
+    text-decoration: none;
+    outline: none;
+    font-size: 14px;
+    font-weight: 600; }
+
+ul,
+ol {
+  margin: 0; }
+  ul li,
+  ol li {
+    list-style: none; }
+
+img {
+  height: auto;
+  max-width: 100%; }
+
+.mt-15 {
+  margin-top: 15px; }
+
+.mt-30 {
+  margin-top: 30px; }
+
+.mt-50 {
+  margin-top: 50px; }
+
+.mt-70 {
+  margin-top: 70px; }
+
+.mt-100 {
+  margin-top: 100px; }
+
+.mb-15 {
+  margin-bottom: 15px; }
+
+.mb-30 {
+  margin-bottom: 30px; }
+
+.mb-50 {
+  margin-bottom: 50px; }
+
+.ml-15 {
+  margin-left: 15px; }
+
+.ml-30 {
+  margin-left: 30px; }
+
+.mr-15 {
+  margin-bottom: 15px; }
+
+.mr-30 {
+  margin-right: 30px; }
+
+.mb-70 {
+  margin-bottom: 70px; }
+
+.mb-100 {
+  margin-bottom: 100px; }
+
+.bg-img {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.bg-transparent {
+  background-color: transparent; }
+
+.bg-transparent-dark {
+  background-color: rgba(0, 0, 0, 0.5) !important; }
+
+.bg-transparent-light {
+  background-color: rgba(255, 255, 255, 0.5) !important; }
+
+.font-bold {
+  font-weight: 700; }
+
+.font-light {
+  font-weight: 300; }
+
+.height-500 {
+  height: 500px !important; }
+
+.height-600 {
+  height: 600px !important; }
+
+.height-700 {
+  height: 700px !important; }
+
+.height-800 {
+  height: 800px !important; }
+
+.section-padding-100 {
+  padding: 100px 0; }
+
+.section-padding-50 {
+  padding: 50px 0; }
+
+.section-padding-50-0 {
+  padding: 50px 0 0 0; }
+
+.section-padding-100-70 {
+  padding: 100px 0 70px; }
+
+.section-padding-100-50 {
+  padding: 35px 0 20px; }
+
+.section-padding-100-0 {
+  padding: 100px 0 0; }
+
+.section-padding-0-100 {
+  padding: 0 0 100px; }
+
+.section-padding-100-20 {
+  padding: 100px 0 20px 0; }
+  

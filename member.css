@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-family: 'Poppins',sans-serif;
+	color: #222;
+
+		background-color: #f2f2f2;
+}
+
+.partner-choice{
+	padding-left: 5rem;
+}
+.img-fluid{
+	padding-right: 0rem;
+	align-items: right;
+}
+navbar{
+padding: .8rem;	
+}
+.navbar-nav li{
+	padding-right: 20px;
+	color:#453d9c;
+}
+.nav-link{
+	font-size: 1.1em !important;
+}
+
+/*
+#team{
+	min-height: 100vh;
+	box-sizing: border-box;
+}
+h1{
+	text-align: center;
+	padding: 3rem;
+}
+
+*/
+
+#team{
+	min-height: 100vh;
+	box-sizing: border-box;
+} 
+.team h1{
+	text-align: center;
+	padding: 3rem;
+}
+
+.main{
+ 
+ justify-content: center;
+ align-items: center;
+ margin-top: 10px;
+ width: 100vw;
+display: grid;
+grid-template-columns: repeat(auto-fill,minmax(300px, 300px));
+column-gap: 10px;
+}
+
+
+.team-img{
+	width: 200px;
+	height: 200px;
+	margin-top: 6rem;
+	object-fit: cover;
+	object-position: center;
+	padding: 0rem;
+	border: 5px solid green;
+	border-radius: 50%;
+	border-color: green;
+
+}
+
+
+
+.main{
+  background-color: pink,white;
+
+}/*
+.team-member-card{
+   margin-top: 25px;
+   border: 2px solid black,white;
+	/* border-radius: 50%; *
+   border-color: green;
+}*/
+.team-img{
+	width: 160px;
+	height: 160px;
+	margin-top: 2.5rem;
+	object-fit: cover;
+	object-position: center;
+	padding: 0rem;
+	border: 1px solid #000;
+	border-radius: 50%;
+	border-color: black;
+	align-items: center;
+	margin-left: 4rem;
+
+}
+
+.card-body{
+   left: 15rem;	
+}
+.card-body h6 {
+	color: #d6d6c2,#999966;
+	/* background-color: white; */
+	text-align: center;
+	font-family: sans-serif;
+	size: 14px;
+	color:#453d9c;
+
+}
+
+
+.card-deck{
+  
+  left: 15rem;
+  padding-right: 0px;
+  padding-left: 30px;
+  margin-left: 30px;
+ 
+}
+
+
+.card-body .card-title{
+	color: black;
+	align-items: center;
+	background-color: white;
+}
+.card-body p {
+	color: #d6d6c2,#999966;
+	/* background-color: white; */
+	text-align: center;
+
+}
+.card-body .card-text{
+	color:#999966 ;
+	text-align: center;
+	padding: 0px;
+
+}
+
+/*---------------------------------contact-------------------------->*/
+
+.footer-top{
+	background-color: red,#b3b3cc;
+	margin-bottom: 0px;
+}
+.container2{
+	background-color: blue,#b3b3cc;
+	width: 100%;
+	padding-left: 1.5rem;
+	padding-right: 1.5rem;
+	padding-bottom: 0px;
+
+	align-items: center;
+}
+.get h4{
+	margin-left: 26rem;
+}
+.contact{
+	background-color: red,#b3b3cc;
+	padding-top: 0rem;
+	width: 100%;
+	margin-left: 0px;
+	margin-right: 0px;
+	top: 0;
+}
+.logoday2{
+	size: 18%;
+	padding-left: 0.5rem;
+}
+.footer-links{
+	padding-top: 1rem;
+	padding-left: 1rem;
+	background-color: orange,#b3b3cc;
+}
+.contactForm{
+	background-color: green,#b3b3cc;
+}
+.form-group{
+	background-color: red,#b3b3cc;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+form{
+		justify-content: right;
+
+	}
+
+.row2{
+	padding-left: 3rem;
+}
+.card2{
+    width: 80%;
+ }
+
+ .card-body{
+		font-family: sans-serif;
+		font-size: 13px;
+		color: black;
+		width: 100%;
+	}
+
+	section{
+ 	width: 100%;
+ 	background-color: #e0e0d1;
+ 	padddig-top: 5rem;
+
+ }
+ .btn2{
+   font-family: sans-serif;
+	font-size:19px;
+	font-weight: bold;
+	margin-left: 5rem;
+	padding: 1px;
+	text-transform: uppercase;
+   background-color: #99cc00;
+   color: #fff;
+	border-radius: 5px;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0,0,0, );
+	cursor: pointer;
+	text-decoration: none;
+	width:120px;
+	border-color: none;
+}
+
+/*---------------------main footer----------------*/
+footer{
+ 	/*text-align: center;*/
+
+  background-color: black;
+  width: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  padding-top: 0px;
+  margin-top: 0px;
+
+ }
+footer p {
+	text-align: center;
+	margin-top: 1px;
+	color: #fff;
+	font-size: 20px;
+
+}
+footer a {
+	margin-left: 2rem;
+	margin-bottom: 0rem;
+	color: yellow;
+	text-align: justify-all;
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+/*
+
+#team{
+	min-height: 100vh;
+	box-sizing: border-box;
+} 
+h1{
+	text-align: center;
+	padding: 3rem;
+}
+
+.main{
+ 
+ justify-content: center;
+ align-items: center;
+ margin-top: 10px;
+ width: 100vw;
+display: grid;
+grid-template-columns: repeat(auto-fill,minmax(300px, 300px));
+columb-gap: 10px;
+}
+.team-img{
+	width: 200px;
+	height: 200px;
+	margin-top: 6rem;
+	object-fit: cover;
+	object-position: center;
+	padding: 0rem;
+	border: 5px solid green;
+	border-radius: 50%;
+	border-color: green;
+
+}
